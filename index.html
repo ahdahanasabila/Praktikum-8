@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Flexbox 1</title>
+<style>
+
+*{
+    margin: 0;
+}
+.content {
+    display: flex;  
+    height: 55vh;
+}
+
+header, article, nav, aside, footer {
+    padding: 3rem;
+}
+    
+header {
+    background-color: yellowgreen;
+    margin-left: 200px;
+    margin-top: -635px;
+    height: 75px;
+}
+
+article {
+    background-color: palegreen;
+    width: 410px;
+    margin-left: 200px;
+}
+
+nav {
+    background-color: rgb(253, 206, 164);
+    width: 30%;
+    height: 87vh;
+}
+
+aside {
+    background-color: rgb(255, 182, 194);
+    width: 50%;
+}
+
+footer {
+    background-color: rgb(255, 230, 191);
+    margin-left: 200px;
+    margin-top: -50px;
+    height: 75px;
+    text-align: center;
+}
+
+</style>
+
+</head>
+<body>
+    
+    <div class="container">
+        <nav>
+            <h2>Nav</h2>
+        </nav>
+        <header>
+            <h2>Header</h2>
+        </header>
+        <div class="content">
+            <article>
+                <h2>Article</h2>
+            </article>    
+            <aside>
+                <h2>Aside</h2>
+            </aside>
+            </div>
+            <footer>
+                <h2>Footer</h2>
+            </footer>
+        </div>
+    </body>
+</html>
